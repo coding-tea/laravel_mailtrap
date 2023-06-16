@@ -1,7 +1,6 @@
 <?php
 
-use App\Models\Test;
-use Database\Factories\testFactory;
+use App\Http\Controllers\mailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+Route::get('/', [mailController::class, 'send']);
