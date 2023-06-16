@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class mailController extends Controller
 {
-    //
+    public function send(){
+        //
+    }
 }
